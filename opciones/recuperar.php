@@ -162,7 +162,7 @@ $(document).ready(function() {
                         }//CIERRE IF R DIFERENTE DE 2
                                             else {
                                                 //Muestra el valor con 
-                                                alert(r)
+                                                //alert(r)
                                                 const Toast = Swal.mixin({
                                                 toast: true,
                                                 position: 'top-end',

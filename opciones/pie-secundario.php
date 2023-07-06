@@ -508,8 +508,8 @@ $(document).ready(function() {
                                     timer: 5000,
                                     timerProgressBar: true,
                                     didOpen: (toast) => {
-                                        toast.addEventListener('mouseenter', Swal.stopTimer)
-                                        toast.addEventListener('mouseleave', Swal.resumeTimer)
+                                        //toast.addEventListener('mouseenter', Swal.stopTimer)
+                                        //toast.addEventListener('mouseleave', Swal.resumeTimer)
                                     }
                                 })
                                 Toast.fire({
@@ -524,7 +524,7 @@ $(document).ready(function() {
 
 
 
-                                                 setTimeout( function() { window.location.href = "opciones/Comentarios.php"; }, 5000 );
+                                                 setTimeout( function() { window.location.href = "administrador/Comentarios.php"; }, 5000 );
 
 
 
